@@ -1,5 +1,13 @@
 # @apollo/client
 
+## 3.8.0-rc.2
+
+### Patch Changes
+
+- [#11086](https://github.com/apollographql/apollo-client/pull/11086) [`0264fee06`](https://github.com/apollographql/apollo-client/commit/0264fee066cb715602eda26c7c0bb1254469eccb) Thanks [@jerelmiller](https://github.com/jerelmiller)! - Fix an issue where a call to `refetch`, `fetchMore`, or changing `skip` to `false` that returned a result deeply equal to data in the cache would get stuck in a pending state and never resolve.
+
+- [#11082](https://github.com/apollographql/apollo-client/pull/11082) [`0f1cde3a2`](https://github.com/apollographql/apollo-client/commit/0f1cde3a207699edb742dfaada817a815488d594) Thanks [@phryneas](https://github.com/phryneas)! - Restore Apollo Client 3.7 `getApolloContext` behaviour
+
 ## 3.8.0-rc.1
 
 ### Patch Changes
